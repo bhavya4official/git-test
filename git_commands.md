@@ -42,7 +42,7 @@ _(To check the log of the commits to your Git repository)_
 `git log`
 ***
 
-## Switch branches or restore working tree files
+## Switch branches or restore working tree files:
 _(Checking out a file from an earlier commit)_
 `git checkout <commit's number first 7 digit> file_name`
 `git checkout <commit's number first 7 digit>`
@@ -61,6 +61,7 @@ _(Set the local Git repository to set its remote origin)_
 
 _(Pushing your commits to the online repository)_
 `git push -u origin master`
+`git push --all`
 ***
 
 ## Make clone of git repository to local repository:
