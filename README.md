@@ -39,7 +39,7 @@ _(Downloading and Installing Git)_
 
 `git reset HEAD file_name`
 `git reset` _(Resetting the Git repository)_
- >It Reset the staging area to the last commit without disturbing the working directory
+ >It reset the staging area to the last commit without disturbing the working directory
 
 `git checkout -- index.html` _(Commit to the latest version)_
 ***
