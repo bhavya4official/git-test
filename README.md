@@ -48,7 +48,8 @@ _(Downloading and Installing Git)_
 `git remote add origin <repository URL>` _(Set the local Git repository to set its remote origin)_
 
 `git push -u origin master`
-`git push --all` _(Pushing your commits to the online repository)_
+`git push --all`
+`git push origin` _(Pushing your commits to the online repository)_
 ***
 
 ## Make clone of git repository to local repository:
