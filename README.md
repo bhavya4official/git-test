@@ -19,6 +19,7 @@ _(Downloading and Installing Git)_
 
 ## Git operations on your Git repository:
 >On your computer create a folder. Open this folder in any text editor and Create any file with some content.
+
 `git init` _(Initializing the folder as a Git repository)_
 
 `git status` _(Checking your Git repository status)_
