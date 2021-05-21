@@ -20,15 +20,18 @@ _(Downloading and Installing Git)_
 ## Git operations on your Git repository:
 >On your computer create a folder. Open this folder in any text editor and Create any file with some content.
 
+`echo "# ui-task-velocity" >> README.md` _(To create a Readme file)_
 `git init` _(Initializing the folder as a Git repository)_
 
 `git status` _(Checking your Git repository status)_
 
 `git add .`
 `git add --all`
-`git add <file_name>` _(To add files to the staging area of your Git repository)_
+`git add <file_name/README.md>` _(To add files to the staging area of your Git repository)_
 
 `git commit -m "first commit"` _(To commit the current staging area to your Git repository)_
+
+`git branch -M main` 
 
 `git log --oneline`
 `git log` _(To check the log of the commits to your Git repository)_
