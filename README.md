@@ -38,6 +38,11 @@ _(Downloading and Installing Git)_
 ***
 
 ## Switch branches or restore working tree files:
+`git branch` _(To check all & working branch)_
+`git checkout -b <new-branch-name>` _(To create and switch to a new branch)_
+`git checkout <branch-name>` _(To switch working branch)_
+`git push origin <branch-name>` _(To push new branch to a remote repository)_
+
 `git checkout <commit's number first 7 digit> file_name`
 `git checkout <commit's number first 7 digit>` _(Checking out a file from an earlier commit)_
 
@@ -58,5 +63,5 @@ _(Downloading and Installing Git)_
 `git push origin` _(Pushing your commits to the online repository)_
 ***
 
-## Make clone of git repository to local repository:
+## Make a clone of git repository to the local repository:
 `git clone <repository URL>` _(Cloning an online repository)_
