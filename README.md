@@ -21,6 +21,7 @@ _(Downloading and Installing Git)_
 >On your computer create a folder. Open this folder in any text editor and Create any file with some content.
 
 `echo "# ui-task-velocity" >> README.md` _(To create a Readme file)_
+
 `git init` _(Initializing the folder as a Git repository)_
 
 `git status` _(Checking your Git repository status)_
