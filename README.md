@@ -39,8 +39,11 @@ _(Downloading and Installing Git)_
 
 ## Switch branches or restore working tree files:
 `git branch` _(To check all & working branch)_
+
 `git checkout -b <new-branch-name>` _(To create and switch to a new branch)_
+
 `git checkout <branch-name>` _(To switch working branch)_
+
 `git push origin <branch-name>` _(To push new branch to a remote repository)_
 
 `git checkout <commit's number first 7 digit> file_name`
