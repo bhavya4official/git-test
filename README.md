@@ -41,7 +41,11 @@ _(Downloading and Installing Git)_
 ## Switch branches or restore working tree files:
 `git branch` _(To check all & working branch)_
 
+`git branch <new-branch>` _(Create a new branch based on the current HEAD)_
+
 `git checkout -b <new-branch-name>` _(To create and switch to a new branch)_
+
+`git branch <new-branch> <base-branch>` _(create a new branch based on some existing one)_
 
 `git checkout <branch-name>` _(To switch working branch)_
 
