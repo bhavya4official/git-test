@@ -20,7 +20,7 @@ _(Downloading and Installing Git)_
 ## Git operations on your Git repository:
 >On your computer create a folder. Open this folder in any text editor and Create any file with some content.
 
-`echo "# ui-task-velocity" >> README.md` _(To create a Readme file)_
+`echo "# Project Description" >> README.md` _(To create a Readme file)_
 
 `git init` _(Initializing the folder as a Git repository)_
 
