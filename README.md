@@ -30,7 +30,8 @@ _(Downloading and Installing Git)_
 `git add --all`
 `git add <file_name/README.md>` _(To add files to the staging area of your Git repository)_
 
-`git commit -m "first commit"` _(To commit the current staging area to your Git repository)_
+`git commit -m "Commit message"` _(To commit the current staging area to your Git repository)_
+`git commit -a -m "Commit message"` _(Automatically stage files that have been modified and deleted - excluding new files)_
 
 `git branch -M main` 
 
