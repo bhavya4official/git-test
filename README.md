@@ -17,7 +17,7 @@ _(Downloading and Installing Git)_
 `git config --list` _(You can check your default Git global configuration)_
 ***
 
-## Git operations on your Git repository:
+## Git operations on your local Git repository:
 >On your computer create a folder. Open this folder in any text editor and Create any file with some content.
 
 `echo "# Project Description" >> README.md` _(To create a Readme file)_
@@ -71,6 +71,8 @@ _(Downloading and Installing Git)_
 `git push -u origin master`
 `git push --all`
 `git push origin` _(Pushing your commits to the online repository)_
+
+`git remote -v` _(See the current configured remote repository for your fork)_
 ***
 
 ## Make a clone of git repository to the local repository:
