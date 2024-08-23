@@ -73,6 +73,8 @@ _(Downloading and Installing Git)_
 `git push origin` _(Pushing your commits to the online repository)_
 
 `git remote -v` _(See the current configured remote repository for your fork)_
+`git remote set-url origin <repo URL>`
+`git remote remove origin` _(To remove remote)_
 ***
 
 ## Make a clone of git repository to the local repository:
