@@ -83,7 +83,7 @@ _(Downloading and Installing Git)_
 `git checkout -- index.html` _(Commit to the latest version)_
 ***
 
-## Error Fix: main and master are entirely different commit histories.
+## Error Fix: "main and master are entirely different commit histories"
 ```
 git checkout master   
 git branch main master -f    
