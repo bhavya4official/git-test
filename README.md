@@ -40,8 +40,28 @@ _(Downloading and Installing Git)_
 `git log` _(To check the log of the commits to your Git repository)_
 ***
 
+## Make a clone of git repository to the local repository:
+`git clone <repository URL>` _(Cloning an online repository)_
+***
+
+## Online GitHub/BitBucket repository to mirror local repository:
+`git remote add origin <repository URL>` _(Set the local Git repository to set its remote origin)_
+
+`git pull origin master` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
+
+`git push -u origin master` `git push --set-upstream origin master`
+`git push --all`
+`git push origin` _(Pushing your commits to the online repository)_
+
+`git push -f origin master` _(Force change - override the remote branch code with your local repo code)_
+
+`git remote -v` _(See the current configured remote repository for your fork)_
+`git remote set-url origin <repo URL>`
+`git remote remove origin` _(To remove remote)_
+***
+
 ## Switch branches or restore working tree files:
-`git branch` _(To check all & working branch)_
+`git branch` `git branch -r` _(To check all & working branch)_
 
 `git branch <new-branch>` _(Create a new branch based on the current HEAD)_
 
@@ -63,21 +83,10 @@ _(Downloading and Installing Git)_
 `git checkout -- index.html` _(Commit to the latest version)_
 ***
 
-## Online GitHub/BitBucket repository to mirror local repository:
-`git remote add origin <repository URL>` _(Set the local Git repository to set its remote origin)_
-
-`git pull origin master` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
-
-`git push -u origin master` `git push --set-upstream origin master`
-`git push --all`
-`git push origin` _(Pushing your commits to the online repository)_
-
-`git push -f origin master` _(Force change - override the remote branch code with your local repo code)_
-
-`git remote -v` _(See the current configured remote repository for your fork)_
-`git remote set-url origin <repo URL>`
-`git remote remove origin` _(To remove remote)_
-***
-
-## Make a clone of git repository to the local repository:
-`git clone <repository URL>` _(Cloning an online repository)_
+## Error Fix: main and master are entirely different commit histories.
+```
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f 
+```
