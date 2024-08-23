@@ -68,7 +68,7 @@ _(Downloading and Installing Git)_
 
 `git pull origin master` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
 
-`git push -u origin master`
+`git push -u origin master` `git push --set-upstream origin master`
 `git push --all`
 `git push origin` _(Pushing your commits to the online repository)_
 
