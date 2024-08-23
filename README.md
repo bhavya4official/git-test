@@ -72,6 +72,8 @@ _(Downloading and Installing Git)_
 `git push --all`
 `git push origin` _(Pushing your commits to the online repository)_
 
+`git push -f origin master` _(Force change - override the remote branch code with your local repo code)_
+
 `git remote -v` _(See the current configured remote repository for your fork)_
 `git remote set-url origin <repo URL>`
 `git remote remove origin` _(To remove remote)_
