@@ -47,7 +47,7 @@ _(Downloading and Installing Git)_
 ## Online GitHub/BitBucket repository to mirror local repository:
 `git remote add origin <repository URL>` _(Set the local Git repository to set its remote origin)_
 
-`git pull origin master` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
+`git pull <remote> <branch>` `git pull origin master` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
 
 `git push -u origin master` `git push --set-upstream origin master`
 `git push --all`
