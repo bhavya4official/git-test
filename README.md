@@ -49,7 +49,7 @@ _(Downloading and Installing Git)_
 
 `git pull -u origin master`
 
-`git pull <remote> <branch>` `git pull origin master` _(pulls the master branch from the remote called origin into your current branch)_
+`git pull <remote> <branch-name>` `git pull origin master` _(pulls the master branch from the remote called origin into your current branch)_
 
 `git pull` _(git fetch+ git merge It fetch and download content from a remote repository and immediately update the local repository to match that content)_
 
@@ -76,6 +76,8 @@ _(Downloading and Installing Git)_
 `git checkout <branch-name>` _(To switch working branch)_
 
 `git push origin <branch-name>` _(To push new branch to a remote repository)_
+
+`git branch --set-upstream-to=origin/main <branch-name>` `git branch -u origin/main <branch-name>` _(<branch-name> will be set up to track 'origin/main' | set tracking information for this branch)_
 
 `git checkout <commit's number first 7 digit> file_name`
 `git checkout <commit's number first 7 digit>` _(Checking out a file from an earlier commit)_
