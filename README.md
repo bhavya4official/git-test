@@ -14,7 +14,9 @@ _(Downloading and Installing Git)_
 
 `git config --global user.email <your email address>` _(To configure your email to be used by Git)_
 
-`git config --list` _(You can check your default Git global configuration)_
+`git config --list` _(To check your default Git global configuration)_
+
+`git config credential.username username1` _(To switch git user)
 ***
 
 ## Git operations on your local Git repository:
